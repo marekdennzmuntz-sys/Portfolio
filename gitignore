@@ -1,0 +1,24 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env / secrets (none in use yet, but keep this out if that changes)
+.env
+.env.local
+
+# In case tooling gets added later
+node_modules/
+dist/
+.netlify/
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
